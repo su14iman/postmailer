@@ -1,0 +1,86 @@
+.pagec{
+	display: none;
+}
+
+button{
+	cursor: pointer;
+
+}
+
+input{
+	cursor: pointer;
+}
+
+input:disabled {
+	/*border: 1px solid red;*/
+	/*background-color: red;*/
+	/*border: 1px ;*/
+	    cursor:not-allowed;
+
+}
+
+
+
+
+[hidedive|="1"]{
+	display: none;
+
+}
+
+
+
+
+
+
+/*
+Page's : @= ok ! = no
+@ page1 = mail list 
+@ page2 = setup tempalte
+
+@ page3 = Contact us
+@ page4 = settings
+
+@ page5 = log's -> (all)
+
+@ page 6 = create email -> subject - html
+@ page 7 = create email -> privew
+! page 8 = create email -> send: (ALL) - (one) --> resutlt;
+
+*/
+
+
+/* Page 1 */
+#page1{
+	display: none;
+}
+
+#page1 .formAdd div input{
+	border:0px;
+}
+#page1 .formAdd div button{
+	border:0px;
+	background-color: #6DE3BE;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

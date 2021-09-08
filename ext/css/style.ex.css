@@ -1,0 +1,183 @@
+/**
+
+ ____             _               ____       __  __
+|  _ \  ___   ___| |_ ___  _ __  / ___|  ___|  \/  | ___
+| | | |/ _ \ / __| __/ _ \| '__| \___ \ / _ \ |\/| |/ _ \
+| |_| | (_) | (__| || (_) | |     ___) |  __/ |  | | (_) |
+|____/ \___/ \___|\__\___/|_|    |____/ \___|_|  |_|\___/
+
+		                   Semoo@dr.com
+2017.05.13
+**/
+@import url("./pages.css");
+
+
+/*BarLeft*/
+/*BodyPage*/
+
+body{
+	background-color: #FDFDFD;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+
+#langu{
+	position: fixed;
+	right: 0;
+	top: 0;
+	background-color: #ededed;
+	width: auto;
+	padding:2px 15px 2px 15px;
+	text-align: center;
+	margin-right: 5%;
+	cursor: pointer;
+	color: #404041;
+	font-size: 0.9rem;
+	
+}
+
+
+
+
+
+
+
+#BarLeft{
+	
+/*	box-shadow: 0px 0px 2px 0px;
+	background-color: rgba(251, 249, 249, 0.46);
+	border-radius: 5px;
+	height: 550px;
+	margin-left: 20px;*/
+
+}
+
+
+
+#BarLeft .bodyBar {
+	box-shadow: 0px 0px 2px 0px;
+	background-color: #f8f8f8;
+	border-radius: 5px;
+	height: 570px;
+	width: 100%;
+	margin-left: 12%;
+}
+
+#BarLeft .bodyBar .PicUser{
+text-align: center;
+
+	
+}
+
+#BarLeft .bodyBar .PicUser img{
+	border-radius: 200px;
+	width: 50%;
+	height: 50%;
+	/*border: 1px solid red;*/
+	margin-top: 5%;
+	
+}
+
+
+#BarLeft .bodyBar .WelecomeUserName{
+	text-align: center;
+	margin-top: 3%;	
+	font-family: monospace;
+	color:#404041;
+	font-size: 1rem;
+
+}
+
+
+#BarLeft .bodyBar .listBat button{
+	width: 100%; 
+	border: 0px;
+	background-color: #f8f8f8;
+	font-family: monospace;
+	cursor: pointer;
+	color:#404041;
+	text-align: left;
+	font-size: 0.9rem;
+	line-height: 220%;
+}
+
+
+#BarLeft .bodyBar .listBat button i{
+	    color: #EC5778;
+}
+
+#BarLeft .bodyBar .listBat button:hover{
+
+	background-color: rgb(224, 224, 224);
+	color:#fff;
+
+}
+
+
+
+
+
+
+
+
+
+#BodyPage{
+
+
+}
+
+
+
+#BodyPage .bodyBorder{
+	box-shadow: 0px 0px 2px 0px;
+	background-color: #fff;
+	border-radius: 5px;
+	height: 550px;
+	width: 96%;
+	margin-left: 2%;
+}
+
+
+
+#BodyPage .bodyBorder .barTop{
+	padding: 1% 3% 1% 3%;
+	color:#EC5778;
+	background-color: #f8f8f8;
+	height: 35px;
+}
+
+#BodyPage .bodyBorder .barTop i{
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#copye{
+	height: 15px; 
+	text-align: center;
+	color: #404041;
+	font-size: 0.7rem;
+	margin-top: 5px;
+}
+
